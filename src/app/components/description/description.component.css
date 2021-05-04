@@ -1,0 +1,39 @@
+.Heading{
+    font-family: 'Girassol', cursive;
+    font-weight:bold;
+    font-size:2rem;
+}
+.Headsection{
+    font-family: 'Freckle Face', cursive;
+    font-size:2em;
+    margin-top:10px;
+    color:indigo;
+}
+.Description{
+    font-family: 'Pangolin', cursive;
+    font-size:1.5em;
+}
+#action{
+    background-image:url(action.jpg);
+    height: 500px;
+    max-width:100%;
+    -webkit-background-size: cover;
+    background-size: cover;
+    background-position: center center;
+}
+#romance{
+    background-image:url(romance2.jpg);
+    height: 500px;
+    width:100%;
+    -webkit-background-size: cover;
+    background-size: cover;
+    background-position: center center;
+}
+#Collage{
+    background-image:url(Collage.jpg);
+    height: 500px;
+    width:100%;
+    -webkit-background-size: cover;
+    background-size: cover;
+    background-position: center center;
+}

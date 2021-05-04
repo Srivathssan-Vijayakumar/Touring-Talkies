@@ -1,0 +1,132 @@
+.card-text{
+    font-family: 'Architects Daughter', cursive;
+    font-size:25px;
+}
+.Tamil-card{
+    margin-top:30px;
+}
+.footer-text{
+    color:white;
+}
+.card-title{
+    text-align:center;
+    font-family: 'Fredoka One', cursive;
+}
+ul{
+    list-style:none;
+}
+#film1{
+    background-image: linear-gradient(rgba(0,0,0,0.9),rgba(0,0,0,0.5)),url(Vathssan.jpg);
+    overflow:hidden;
+    -webkit-background-size: cover;
+    background-size: cover;
+    background-position: center center;
+    height: 100vh;
+    width:100vw;
+}
+#film2{
+    background-image: linear-gradient(rgba(0,0,0,0.9),rgba(0,0,0,0.5)),url(Vathssan.jpg);
+    overflow:hidden;
+    -webkit-background-size: cover;
+    background-size: cover;
+    background-position: center center;
+    height: 100vh;
+    width:100vw;
+}
+#film3{
+    background-image: linear-gradient(rgba(0,0,0,0.9),rgba(0,0,0,0.5)),url(Vathssan.jpg);
+    overflow:hidden;
+    -webkit-background-size: cover;
+    background-size: cover;
+    background-position: center center;
+    height: 100vh;
+    width:100vw;
+}
+#film4{
+    background-image: linear-gradient(rgba(0,0,0,0.9),rgba(0,0,0,0.5)),url(Vathssan.jpg);
+    overflow:hidden;
+    -webkit-background-size: cover;
+    background-size: cover;
+    background-position: center center;
+    height: 100vh;
+    width:100vw;
+}
+#film5{
+    background-image: linear-gradient(rgba(0,0,0,0.9),rgba(0,0,0,0.5)),url(Vathssan.jpg);
+    overflow:hidden;
+    -webkit-background-size: cover;
+    background-size: cover;
+    background-position: center center;
+    height: 100vh;
+    width:100vw;
+}
+#film6{
+    background-image: linear-gradient(rgba(0,0,0,0.9),rgba(0,0,0,0.5)),url(Vathssan.jpg);
+    overflow:hidden;
+    -webkit-background-size: cover;
+    background-size: cover;
+    background-position: center center;
+    height: 100vh;
+    width:100vw;
+}
+#film7{
+    background-image: linear-gradient(rgba(0,0,0,0.9),rgba(0,0,0,0.5)),url(Vathssan.jpg);
+    overflow:hidden;
+    -webkit-background-size: cover;
+    background-size: cover;
+    background-position: center center;
+    height: 100vh;
+    width:100vw;
+}
+#film8{
+    background-image: linear-gradient(rgba(0,0,0,0.9),rgba(0,0,0,0.5)),url(Vathssan.jpg);
+    overflow:hidden;
+    -webkit-background-size: cover;
+    background-size: cover;
+    background-position: center center;
+    height: 100vh;
+    width:100vw;
+}
+#film9{
+    background-image: linear-gradient(rgba(0,0,0,0.9),rgba(0,0,0,0.5)),url(Vathssan.jpg);
+    overflow:hidden;
+    -webkit-background-size: cover;
+    background-size: cover;
+    background-position: center center;
+    height: 100vh;
+    width:100vw;
+}
+#Tamil{
+    background-image: linear-gradient(rgba(0,0,0,0.9),rgba(0,0,0,0.5)),url(Tamil.jpg);
+    overflow:hidden;
+    -webkit-background-size: cover;
+    background-size: cover;
+    background-position: center center;
+}
+#Hindi{
+    background-image: linear-gradient(rgba(0,0,0,0.9),rgba(0,0,0,0.5)),url(Hindi2.jpg);
+    height: 100vh;
+    width:100vw;
+    overflow:hidden;
+    -webkit-background-size: cover;
+    background-size: cover;
+    background-position: center center;
+}
+#Malayalam{
+    background-image: linear-gradient(rgba(0,0,0,0.9),rgba(0,0,0,0.5)),url(Malayalam2.jpg);
+    height: 100vh;
+    width:100vw;
+    overflow:hidden;
+    -webkit-background-size: cover;
+    background-size: cover;
+    background-position: center center;
+}
+#English{
+    background-image: linear-gradient(rgba(0,0,0,0.9),rgba(0,0,0,0.5)),url(English.jpg);
+    height: 100vh;
+    width:100vw;
+    overflow:hidden;
+    -webkit-background-size: cover;
+    background-size: cover;
+    background-position: center center;
+}

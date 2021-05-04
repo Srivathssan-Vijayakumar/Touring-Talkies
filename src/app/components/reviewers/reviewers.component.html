@@ -1,0 +1,29 @@
+<head>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Caveat:wght@400;500&family=Indie+Flower&family=Permanent+Marker&display=swap" rel="stylesheet"> 
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Caveat:wght@400;500&family=Indie+Flower&family=Patrick+Hand&family=Permanent+Marker&display=swap" rel="stylesheet"> 
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Arvo:ital@1&family=Caveat:wght@400;500&family=Indie+Flower&family=Patrick+Hand&family=Permanent+Marker&display=swap" rel="stylesheet"> 
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">   
+<link href="https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Freckle+Face&family=Girassol&family=Pangolin&display=swap" rel="stylesheet"> 
+</head>
+<div class="row">
+    <div class="col-12 ">
+        <br>
+        <h2 class="text-center Heading"> MEET OUR REVIEWERS !!</h2>
+    </div>
+    <div class="col-md-4 col-12 text-center" *ngFor="let reviewer of reviewersList">
+        <div class="row text-center">
+            <div class="col-12">
+                <img id="{{reviewer.id}}" class="image-fluid rounded-circle" src="{{reviewer.picture}}" alt="{{reviewer.picture}}">
+            </div>
+            <div class="col-12 " id="Name">{{reviewer.name}}</div>
+            <div class="col-12" id="Role">{{reviewer.role}}</div>
+            <div class="col-12" id="Desc">{{reviewer.description_1}}<br>{{reviewer.description_2}}<br>{{reviewer.description_3}}<br>{{reviewer.description_4}}</div>
+            <div class="col-12" id="Fb"><a href="{{reviewer.facebook}}"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+            <a href="{{reviewer.instagram}}"><i class="fa fa-instagram" aria-hidden="true"></i></a>
+            <a href="{{reviewer.linkedIn}}"><i class="fa fa-linkedin" aria-hidden="true"></i></a></div>
+        </div>
+    </div>
+</div>

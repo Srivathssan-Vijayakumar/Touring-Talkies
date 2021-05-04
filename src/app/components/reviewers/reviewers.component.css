@@ -1,0 +1,75 @@
+.Heading{
+  font-family: 'Alfa Slab One', cursive;
+  color:yellowgreen;
+}
+#Name{
+    font-weight:bold;
+    font-family: 'Arvo', serif;
+    font-size:2em;
+    text-align:center;
+    color:yellowgreen;
+    margin-top:10px;
+
+} 
+#Role{
+    font-weight:20px;
+    font-family:'Bree serif', cursive;
+    font-size: 1.2em;
+    text-align:center;
+    margin-top:5px;
+
+}
+#Desc{
+    font-weight:20px;
+    font-family: 'Patrick Hand', cursive;;
+    font-size: 1.5em;
+    text-align:center;
+    margin-top:10px;
+
+}
+.fa {  
+    padding: 15px;  
+  text-align: center;  
+    font-size: 30px;  
+    width: 50px;
+    color:black;  
+  }  
+  /*.fa-facebook {  
+    background: #3B5998;  
+    color: white;  
+  }  
+  .fa-twitter {  
+    background: #55ACEE;  
+    color: white;  
+  }  
+  .fa-instagram {  
+    background: #125688;  
+    color: white;  
+  }   */
+#Vathssan{
+    background-image:url(Vathssan.jpg);
+    height: 40vh;
+    width:50%;
+    overflow:hidden;
+    -webkit-background-size: cover;
+    background-size: cover;
+    background-position: center center;
+}
+#Venkatesh{
+    background-image:url(Vathssan.jpg);
+    height: 40vh;
+    width:50%;
+    overflow:hidden;
+    -webkit-background-size: cover;
+    background-size: cover;
+    background-position: center center;
+}
+#Pruthvi{
+    background-image:url(Vathssan.jpg);
+    height: 40vh;
+    width:50%;
+    overflow:hidden;
+    -webkit-background-size: cover;
+    background-size: cover;
+    background-position: center center;
+}

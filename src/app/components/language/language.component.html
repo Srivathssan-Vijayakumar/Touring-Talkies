@@ -1,0 +1,780 @@
+<head>
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Architects+Daughter&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Freckle+Face&family=Fredoka+One&family=Girassol&family=Pangolin&display=swap" rel="stylesheet"> 
+</head>
+<div class="container"><br><br>
+  <div class="col-12">
+    <div class="row">
+      <div class="col-md-6">
+        <div class="card text-white bg-dark mb-3">
+          <div class="card-header">
+            <img id="Tamil" src="Tamil.jpg" style="height: 400px;width: 100%;">
+          </div>
+          <div class="card-body">
+            <h3 class="card-title text-center">தமிழ்</h3>
+            <p class="card-text">Live the Experiance of the most exciting movies released in KOLLYWOOD so far!<br></p>
+            <button (click)=toggleDisplaytamil() class="btn btn-outline-warning">Click to choose</button>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-6">
+        <div class="card text-white bg-warning mb-3">
+          <div class="card-header">
+            <img id="Hindi" src="Hindi2.jpg" style="height: 400px;width: 100%;">
+          </div>
+          <div class="card-body">
+            <h3 class="card-title text-center">हिंदी</h3>
+            <p class="card-text">Come, explore the most amazing creations of BOLLYWOOD creators!<br></p>
+            <button (click)="toggleDisplayhindi()" class="btn btn-outline-dark">Click to choose</button>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-6">
+        <div class="card text-white bg-warning mb-3">
+          <div class="card-header">
+            <img id="Malayalam" src="Malayalam2.jpg" style="height: 400px;width: 100%;">
+          </div>
+          <div class="card-body">
+            <h3 class="card-title text-center">മലയാളം</h3>
+            <p class="card-text">Dive into the MOLLYWOOD pond of realistic movies to find your pearl!<br></p>
+            <button (click)="toggleDisplaymalayalam()" class="btn btn-outline-dark">Click to choose</button>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-6">
+        <div class="card text-white bg-dark mb-3">
+          <div class="card-header">
+            <img id="English" src="English.jpg" style="height: 400px;width: 100%;">
+          </div>
+          <div class="card-body">
+            <h3 class="card-title text-center">English</h3>
+            <p class="card-text">Experiance the most exciting movies of HOLLYWOOD released so far!<br></p>
+            <button (click)="toggleDisplayenglish()" class="btn btn-outline-warning">Click to choose</button>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</div>
+<!--Hindi section-->
+<div class="Tamil-card" [hidden]="hindi">
+  <div class="card-deck">
+    <div class="card bg-success mb-3 text-white">
+      <img id="#film1" class="card-img-top" src="Hindi2.jpg" style="height:400px;width:100%" alt="Card image cap">
+      <div class="card-body">
+        <h5 class="card-title text-center">Card title</h5>
+        <ul class="card-text">
+          
+            <li><p>Directed-by: Lorem</p> </li>
+            <li><p>Lead-Role-Male: Lorem</p> </li>
+            <li><p>Lead-Role-Female: Lorem</p> </li>
+            <li><p>Release-Date: Lorem </p></li>
+            <li><p>Awards-and-Achievements: Lorem</p> </li>
+            <li><p>Description: Lorem</p> </li>
+          
+        </ul>
+      </div>
+      <div class="card-footer">
+        <small class="footer-text">Last updated 3 mins ago</small>
+      </div>
+    </div>
+    <div class="card bg-danger mb-3 text-white">
+      <img id="film2" class="card-img-top" src="Hindi2.jpg" style="height:400px;width:100%" alt="Card image cap">
+      <div class="card-body">
+        <h5 class="card-title text-center">Card title</h5>
+        <ul class="card-text">
+          
+          <li><p>Directed-by: Lorem</p> </li>
+          <li><p>Lead-Role-Male: Lorem</p> </li>
+          <li><p>Lead-Role-Female: Lorem</p> </li>
+          <li><p>Release-Date: Lorem </p></li>
+          <li><p>Awards-and-Achievements: Lorem</p> </li>
+          <li><p>Description: Lorem</p> </li>
+        
+      </ul>
+      </div>
+      <div class="card-footer">
+        <small class="footer-text">Last updated 3 mins ago</small>
+      </div>
+    </div>
+    <div class="card bg-success mb-3 text-white">
+      <img id="film3" class="card-img-top" src="Hindi2.jpg" style="height:400px;width:100%" alt="Card image cap">
+      <div class="card-body">
+        <h5 class="card-title text-center">Card title</h5>
+        <ul class="card-text">
+          
+          <li><p>Directed-by: Lorem</p> </li>
+          <li><p>Lead-Role-Male: Lorem</p> </li>
+          <li><p>Lead-Role-Female: Lorem</p> </li>
+          <li><p>Release-Date: Lorem </p></li>
+          <li><p>Awards-and-Achievements: Lorem</p> </li>
+          <li><p>Description: Lorem</p> </li>
+        
+      </ul>
+      </div>
+      <div class="card-footer">
+        <small class="footer-text">Last updated 3 mins ago</small>
+      </div>
+    </div>
+  </div>
+  <div class="card-deck">
+    <div class="card bg-danger mb-3 text-white">
+      <img id="film4" class="card-img-top" src="Hindi2.jpg" style="height:400px;width:100%" alt="Card image cap">
+      <div class="card-body">
+        <h5 class="card-title text-center">Card title</h5>
+        <ul class="card-text">
+          
+          <li><p>Directed-by: Lorem</p> </li>
+          <li><p>Lead-Role-Male: Lorem</p> </li>
+          <li><p>Lead-Role-Female: Lorem</p> </li>
+          <li><p>Release-Date: Lorem </p></li>
+          <li><p>Awards-and-Achievements: Lorem</p> </li>
+          <li><p>Description: Lorem</p> </li>
+        
+      </ul>
+      </div>
+      <div class="card-footer">
+        <small class="footer-text">Last updated 3 mins ago</small>
+      </div>
+    </div>
+    <div class="card bg-success mb-3 text-white">
+      <img id="film5" class="card-img-top" src="Hindi2.jpg" style="height:400px;width:100%" alt="Card image cap">
+      <div class="card-body">
+        <h5 class="card-title text-center">Card title</h5>
+        <ul class="card-text">
+          
+          <li><p>Directed-by: Lorem</p> </li>
+          <li><p>Lead-Role-Male: Lorem</p> </li>
+          <li><p>Lead-Role-Female: Lorem</p> </li>
+          <li><p>Release-Date: Lorem </p></li>
+          <li><p>Awards-and-Achievements: Lorem</p> </li>
+          <li><p>Description: Lorem</p> </li>
+        
+      </ul>
+      </div>
+      <div class="card-footer">
+        <small class="footer-text">Last updated 3 mins ago</small>
+      </div>
+    </div>
+    <div class="card bg-danger mb-3 text-white">
+      <img id="film6" class="card-img-top" src="Hindi2.jpg" style="height:400px;width:100%" alt="Card image cap">
+      <div class="card-body">
+        <h5 class="card-title text-center">Card title</h5>
+        <ul class="card-text">
+          
+          <li><p>Directed-by: Lorem</p> </li>
+          <li><p>Lead-Role-Male: Lorem</p> </li>
+          <li><p>Lead-Role-Female: Lorem</p> </li>
+          <li><p>Release-Date: Lorem </p></li>
+          <li><p>Awards-and-Achievements: Lorem</p> </li>
+          <li><p>Description: Lorem</p> </li>
+        
+      </ul>
+      </div>
+      <div class="card-footer">
+        <small class="footer-text">Last updated 3 mins ago</small>
+      </div>
+    </div>
+  </div>
+  <div class="card-deck">
+    <div class="card bg-success mb-3 text-white">
+      <img id="film7" class="card-img-top" src="Hindi2.jpg" style="height:400px;width:100%" alt="Card image cap">
+      <div class="card-body">
+        <h5 class="card-title text-center">Card title</h5>
+        <ul class="card-text">
+          
+          <li><p>Directed-by: Lorem</p> </li>
+          <li><p>Lead-Role-Male: Lorem</p> </li>
+          <li><p>Lead-Role-Female: Lorem</p> </li>
+          <li><p>Release-Date: Lorem </p></li>
+          <li><p>Awards-and-Achievements: Lorem</p> </li>
+          <li><p>Description: Lorem</p> </li>
+        
+      </ul>
+      </div>
+      <div class="card-footer">
+        <small class="footer-text">Last updated 3 mins ago</small>
+      </div>
+    </div>
+    <div class="card bg-danger mb-3 text-white">
+      <img id="film8" class="card-img-top" src="Hindi2.jpg" style="height:400px;width:100%" alt="Card image cap">
+      <div class="card-body">
+        <h5 class="card-title text-center">Card title</h5>
+        <ul class="card-text">
+          
+          <li><p>Directed-by: Lorem</p> </li>
+          <li><p>Lead-Role-Male: Lorem</p> </li>
+          <li><p>Lead-Role-Female: Lorem</p> </li>
+          <li><p>Release-Date: Lorem </p></li>
+          <li><p>Awards-and-Achievements: Lorem</p> </li>
+          <li><p>Description: Lorem</p> </li>
+        
+      </ul>
+      </div>
+      <div class="card-footer">
+        <small class="footer-text">Last updated 3 mins ago</small>
+      </div>
+    </div>
+    <div class="card bg-success mb-3 text-white">
+      <img id="film9" class="card-img-top" src="Hindi2.jpg" style="height:400px;width:100%" alt="Card image cap">
+      <div class="card-body">
+        <h5 class="card-title">Card title</h5>
+        <ul class="card-text">
+          
+          <li><p>Directed-by: Lorem</p> </li>
+          <li><p>Lead-Role-Male: Lorem</p> </li>
+          <li><p>Lead-Role-Female: Lorem</p> </li>
+          <li><p>Release-Date: Lorem </p></li>
+          <li><p>Awards-and-Achievements: Lorem</p> </li>
+          <li><p>Description: Lorem</p> </li>
+        
+      </ul>
+      </div>
+      <div class="card-footer">
+        <small class="footer-text">Last updated 3 mins ago</small>
+      </div>
+    </div>
+  </div>
+</div>
+<!--Malayalam section-->
+<div class="Tamil-card" [hidden]="malayalam">
+  <div class="card-deck">
+    <div class="card bg-success mb-3 text-white">
+      <img id="#film1" class="card-img-top" src="Malayalam2.jpg" style="height:400px;width:100%" alt="Card image cap">
+      <div class="card-body">
+        <h5 class="card-title text-center">Card title</h5>
+        <ul class="card-text">
+          
+          <li><p>Directed-by: Lorem</p> </li>
+          <li><p>Lead-Role-Male: Lorem</p> </li>
+          <li><p>Lead-Role-Female: Lorem</p> </li>
+          <li><p>Release-Date: Lorem </p></li>
+          <li><p>Awards-and-Achievements: Lorem</p> </li>
+          <li><p>Description: Lorem</p> </li>
+        
+      </ul>
+      </div>
+      <div class="card-footer">
+        <small class="footer-text">Last updated 3 mins ago</small>
+      </div>
+    </div>
+    <div class="card bg-danger mb-3 text-white">
+      <img id="film2" class="card-img-top" src="Malayalam2.jpg" style="height:400px;width:100%" alt="Card image cap">
+      <div class="card-body">
+        <h5 class="card-title">Card title</h5>
+        <ul class="card-text">
+          
+          <li><p>Directed-by: Lorem</p> </li>
+          <li><p>Lead-Role-Male: Lorem</p> </li>
+          <li><p>Lead-Role-Female: Lorem</p> </li>
+          <li><p>Release-Date: Lorem </p></li>
+          <li><p>Awards-and-Achievements: Lorem</p> </li>
+          <li><p>Description: Lorem</p> </li>
+        
+      </ul>
+      </div>
+      <div class="card-footer">
+        <small class="footer-text">Last updated 3 mins ago</small>
+      </div>
+    </div>
+    <div class="card bg-success mb-3 text-white">
+      <img id="film3" class="card-img-top" src="Malayalam2.jpg" style="height:400px;width:100%" alt="Card image cap">
+      <div class="card-body">
+        <h5 class="card-title">Card title</h5>
+        <ul class="card-text">
+          
+          <li><p>Directed-by: Lorem</p> </li>
+          <li><p>Lead-Role-Male: Lorem</p> </li>
+          <li><p>Lead-Role-Female: Lorem</p> </li>
+          <li><p>Release-Date: Lorem </p></li>
+          <li><p>Awards-and-Achievements: Lorem</p> </li>
+          <li><p>Description: Lorem</p> </li>
+        
+      </ul>
+      </div>
+      <div class="card-footer">
+        <small class="footer-text">Last updated 3 mins ago</small>
+      </div>
+    </div>
+  </div>
+  <div class="card-deck">
+    <div class="card bg-danger mb-3 text-white">
+      <img id="film4" class="card-img-top" src="Malayalam2.jpg" style="height:400px;width:100%" alt="Card image cap">
+      <div class="card-body">
+        <h5 class="card-title">Card title</h5>
+        <ul class="card-text">
+          
+          <li><p>Directed-by: Lorem</p> </li>
+          <li><p>Lead-Role-Male: Lorem</p> </li>
+          <li><p>Lead-Role-Female: Lorem</p> </li>
+          <li><p>Release-Date: Lorem </p></li>
+          <li><p>Awards-and-Achievements: Lorem</p> </li>
+          <li><p>Description: Lorem</p> </li>
+        
+      </ul>
+      </div>
+      <div class="card-footer">
+        <small class="footer-text">Last updated 3 mins ago</small>
+      </div>
+    </div>
+    <div class="card bg-success mb-3 text-white">
+      <img id="film5" class="card-img-top" src="Malayalam2.jpg" style="height:400px;width:100%" alt="Card image cap">
+      <div class="card-body">
+        <h5 class="card-title">Card title</h5>
+        <ul class="card-text">
+          
+          <li><p>Directed-by: Lorem</p> </li>
+          <li><p>Lead-Role-Male: Lorem</p> </li>
+          <li><p>Lead-Role-Female: Lorem</p> </li>
+          <li><p>Release-Date: Lorem </p></li>
+          <li><p>Awards-and-Achievements: Lorem</p> </li>
+          <li><p>Description: Lorem</p> </li>
+        
+      </ul>
+      </div>
+      <div class="card-footer">
+        <small class="footer-text">Last updated 3 mins ago</small>
+      </div>
+    </div>
+    <div class="card bg-danger mb-3 text-white">
+      <img id="film6" class="card-img-top" src="Malayalam2.jpg" style="height:400px;width:100%" alt="Card image cap">
+      <div class="card-body">
+        <h5 class="card-title">Card title</h5>
+        <ul class="card-text">
+          
+          <li><p>Directed-by: Lorem</p> </li>
+          <li><p>Lead-Role-Male: Lorem</p> </li>
+          <li><p>Lead-Role-Female: Lorem</p> </li>
+          <li><p>Release-Date: Lorem </p></li>
+          <li><p>Awards-and-Achievements: Lorem</p> </li>
+          <li><p>Description: Lorem</p> </li>
+        
+      </ul>
+      </div>
+      <div class="card-footer">
+        <small class="footer-text">Last updated 3 mins ago</small>
+      </div>
+    </div>
+  </div>
+  <div class="card-deck">
+    <div class="card bg-success mb-3 text-white">
+      <img id="film7" class="card-img-top" src="Malayalam2.jpg" style="height:400px;width:100%" alt="Card image cap">
+      <div class="card-body">
+        <h5 class="card-title">Card title</h5>
+        <ul class="card-text">
+          
+          <li><p>Directed-by: Lorem</p> </li>
+          <li><p>Lead-Role-Male: Lorem</p> </li>
+          <li><p>Lead-Role-Female: Lorem</p> </li>
+          <li><p>Release-Date: Lorem </p></li>
+          <li><p>Awards-and-Achievements: Lorem</p> </li>
+          <li><p>Description: Lorem</p> </li>
+        
+      </ul>
+      </div>
+      <div class="card-footer">
+        <small class="footer-text">Last updated 3 mins ago</small>
+      </div>
+    </div>
+    <div class="card bg-danger mb-3 text-white">
+      <img id="film8" class="card-img-top" src="Malayalam2.jpg" style="height:400px;width:100%" alt="Card image cap">
+      <div class="card-body">
+        <h5 class="card-title">Card title</h5>
+        <ul class="card-text">
+          
+          <li><p>Directed-by: Lorem</p> </li>
+          <li><p>Lead-Role-Male: Lorem</p> </li>
+          <li><p>Lead-Role-Female: Lorem</p> </li>
+          <li><p>Release-Date: Lorem </p></li>
+          <li><p>Awards-and-Achievements: Lorem</p> </li>
+          <li><p>Description: Lorem</p> </li>
+        
+      </ul>
+      </div>
+      <div class="card-footer">
+        <small class="footer-text">Last updated 3 mins ago</small>
+      </div>
+    </div>
+    <div class="card bg-success mb-3 text-white">
+      <img id="film9" class="card-img-top" src="Malayalam2.jpg" style="height:400px;width:100%" alt="Card image cap">
+      <div class="card-body">
+        <h5 class="card-title">Card title</h5>
+        <ul class="card-text">
+          
+          <li><p>Directed-by: Lorem</p> </li>
+          <li><p>Lead-Role-Male: Lorem</p> </li>
+          <li><p>Lead-Role-Female: Lorem</p> </li>
+          <li><p>Release-Date: Lorem </p></li>
+          <li><p>Awards-and-Achievements: Lorem</p> </li>
+          <li><p>Description: Lorem</p> </li>
+        
+      </ul>
+      </div>
+      <div class="card-footer">
+        <small class="footer-text">Last updated 3 mins ago</small>
+      </div>
+    </div>
+  </div>
+</div>
+<!--English section-->
+<div class="Tamil-card" [hidden]="english">
+  <div class="card-deck">
+    <div class="card bg-success mb-3 text-white">
+      <img id="#film1" class="card-img-top" src="English.jpg" style="height:400px;width:100%" alt="Card image cap">
+      <div class="card-body">
+        <h5 class="card-title text-center">Card title</h5>
+        <ul class="card-text">
+          
+          <li><p>Directed-by: Lorem</p> </li>
+          <li><p>Lead-Role-Male: Lorem</p> </li>
+          <li><p>Lead-Role-Female: Lorem</p> </li>
+          <li><p>Release-Date: Lorem </p></li>
+          <li><p>Awards-and-Achievements: Lorem</p> </li>
+          <li><p>Description: Lorem</p> </li>
+        
+      </ul>
+      </div>
+      <div class="card-footer">
+        <small class="footer-text">Last updated 3 mins ago</small>
+      </div>
+    </div>
+    <div class="card bg-danger mb-3 text-white">
+      <img id="film2" class="card-img-top" src="English.jpg" style="height:400px;width:100%" alt="Card image cap">
+      <div class="card-body">
+        <h5 class="card-title">Card title</h5>
+        <ul class="card-text">
+          
+          <li><p>Directed-by: Lorem</p> </li>
+          <li><p>Lead-Role-Male: Lorem</p> </li>
+          <li><p>Lead-Role-Female: Lorem</p> </li>
+          <li><p>Release-Date: Lorem </p></li>
+          <li><p>Awards-and-Achievements: Lorem</p> </li>
+          <li><p>Description: Lorem</p> </li>
+        
+      </ul>
+      </div>
+      <div class="card-footer">
+        <small class="footer-text">Last updated 3 mins ago</small>
+      </div>
+    </div>
+    <div class="card bg-success mb-3 text-white">
+      <img id="film3" class="card-img-top" src="English.jpg" style="height:400px;width:100%" alt="Card image cap">
+      <div class="card-body">
+        <h5 class="card-title">Card title</h5>
+        <ul class="card-text">
+          
+          <li><p>Directed-by: Lorem</p> </li>
+          <li><p>Lead-Role-Male: Lorem</p> </li>
+          <li><p>Lead-Role-Female: Lorem</p> </li>
+          <li><p>Release-Date: Lorem </p></li>
+          <li><p>Awards-and-Achievements: Lorem</p> </li>
+          <li><p>Description: Lorem</p> </li>
+        
+      </ul>
+      </div>
+      <div class="card-footer">
+        <small class="footer-text">Last updated 3 mins ago</small>
+      </div>
+    </div>
+  </div>
+  <div class="card-deck">
+    <div class="card bg-danger mb-3 text-white">
+      <img id="film4" class="card-img-top" src="English.jpg" style="height:400px;width:100%" alt="Card image cap">
+      <div class="card-body">
+        <h5 class="card-title">Card title</h5>
+        <ul class="card-text">
+          
+          <li><p>Directed-by: Lorem</p> </li>
+          <li><p>Lead-Role-Male: Lorem</p> </li>
+          <li><p>Lead-Role-Female: Lorem</p> </li>
+          <li><p>Release-Date: Lorem </p></li>
+          <li><p>Awards-and-Achievements: Lorem</p> </li>
+          <li><p>Description: Lorem</p> </li>
+        
+      </ul>
+      </div>
+      <div class="card-footer">
+        <small class="footer-text">Last updated 3 mins ago</small>
+      </div>
+    </div>
+    <div class="card bg-success mb-3 text-white">
+      <img id="film5" class="card-img-top" src="English.jpg" style="height:400px;width:100%" alt="Card image cap">
+      <div class="card-body">
+        <h5 class="card-title">Card title</h5>
+        <ul class="card-text">
+          
+          <li><p>Directed-by: Lorem</p> </li>
+          <li><p>Lead-Role-Male: Lorem</p> </li>
+          <li><p>Lead-Role-Female: Lorem</p> </li>
+          <li><p>Release-Date: Lorem </p></li>
+          <li><p>Awards-and-Achievements: Lorem</p> </li>
+          <li><p>Description: Lorem</p> </li>
+        
+      </ul>
+      </div>
+      <div class="card-footer">
+        <small class="footer-text">Last updated 3 mins ago</small>
+      </div>
+    </div>
+    <div class="card bg-danger mb-3 text-white">
+      <img id="film6" class="card-img-top" src="English.jpg" style="height:400px;width:100%" alt="Card image cap">
+      <div class="card-body">
+        <h5 class="card-title">Card title</h5>
+        <ul class="card-text">
+          
+          <li><p>Directed-by: Lorem</p> </li>
+          <li><p>Lead-Role-Male: Lorem</p> </li>
+          <li><p>Lead-Role-Female: Lorem</p> </li>
+          <li><p>Release-Date: Lorem </p></li>
+          <li><p>Awards-and-Achievements: Lorem</p> </li>
+          <li><p>Description: Lorem</p> </li>
+        
+      </ul>
+      </div>
+      <div class="card-footer">
+        <small class="footer-text">Last updated 3 mins ago</small>
+      </div>
+    </div>
+  </div>
+  <div class="card-deck">
+    <div class="card bg-success mb-3 text-white">
+      <img id="film7" class="card-img-top" src="English.jpg" style="height:400px;width:100%" alt="Card image cap">
+      <div class="card-body">
+        <h5 class="card-title">Card title</h5>
+        <ul class="card-text">
+          
+          <li><p>Directed-by: Lorem</p> </li>
+          <li><p>Lead-Role-Male: Lorem</p> </li>
+          <li><p>Lead-Role-Female: Lorem</p> </li>
+          <li><p>Release-Date: Lorem </p></li>
+          <li><p>Awards-and-Achievements: Lorem</p> </li>
+          <li><p>Description: Lorem</p> </li>
+        
+      </ul>
+      </div>
+      <div class="card-footer">
+        <small class="footer-text">Last updated 3 mins ago</small>
+      </div>
+    </div>
+    <div class="card bg-danger mb-3 text-white">
+      <img id="film8" class="card-img-top" src="English.jpg" style="height:400px;width:100%" alt="Card image cap">
+      <div class="card-body">
+        <h5 class="card-title">Card title</h5>
+        <ul class="card-text">
+          
+          <li><p>Directed-by: Lorem</p> </li>
+          <li><p>Lead-Role-Male: Lorem</p> </li>
+          <li><p>Lead-Role-Female: Lorem</p> </li>
+          <li><p>Release-Date: Lorem </p></li>
+          <li><p>Awards-and-Achievements: Lorem</p> </li>
+          <li><p>Description: Lorem</p> </li>
+        
+      </ul>
+      </div>
+      <div class="card-footer">
+        <small class="footer-text">Last updated 3 mins ago</small>
+      </div>
+    </div>
+    <div class="card bg-success mb-3 text-white">
+      <img id="film9" class="card-img-top" src="English.jpg" style="height:400px;width:100%" alt="Card image cap">
+      <div class="card-body">
+        <h5 class="card-title">Card title</h5>
+        <ul class="card-text">
+          
+          <li><p>Directed-by: Lorem</p> </li>
+          <li><p>Lead-Role-Male: Lorem</p> </li>
+          <li><p>Lead-Role-Female: Lorem</p> </li>
+          <li><p>Release-Date: Lorem </p></li>
+          <li><p>Awards-and-Achievements: Lorem</p> </li>
+          <li><p>Description: Lorem</p> </li>
+        
+      </ul>
+      </div>
+      <div class="card-footer">
+        <small class="footer-text">Last updated 3 mins ago</small>
+      </div>
+    </div>
+  </div>
+</div>
+<!--Tamil section-->
+<div class="Tamil-card" [hidden]="tamil">
+  <div class="card-deck">
+    <div class="card bg-success mb-3 text-white">
+      <img id="#film1" class="card-img-top" src="Tamil.jpg" style="height:400px;width:100%" alt="Card image cap">
+      <div class="card-body">
+        <h5 class="card-title text-center">Card title</h5>
+        <ul class="card-text">
+          
+          <li><p>Directed-by: Lorem</p> </li>
+          <li><p>Lead-Role-Male: Lorem</p> </li>
+          <li><p>Lead-Role-Female: Lorem</p> </li>
+          <li><p>Release-Date: Lorem </p></li>
+          <li><p>Awards-and-Achievements: Lorem</p> </li>
+          <li><p>Description: Lorem</p> </li>
+        
+      </ul>
+      </div>
+      <div class="card-footer">
+        <small class="footer-text">Last updated 3 mins ago</small>
+      </div>
+    </div>
+    <div class="card bg-danger mb-3 text-white">
+      <img id="film2" class="card-img-top" src="Tamil.jpg" style="height:400px;width:100%" alt="Card image cap">
+      <div class="card-body">
+        <h5 class="card-title">Card title</h5>
+        <ul class="card-text">
+          
+          <li><p>Directed-by: Lorem</p> </li>
+          <li><p>Lead-Role-Male: Lorem</p> </li>
+          <li><p>Lead-Role-Female: Lorem</p> </li>
+          <li><p>Release-Date: Lorem </p></li>
+          <li><p>Awards-and-Achievements: Lorem</p> </li>
+          <li><p>Description: Lorem</p> </li>
+        
+      </ul>
+      </div>
+      <div class="card-footer">
+        <small class="footer-text">Last updated 3 mins ago</small>
+      </div>
+    </div>
+    <div class="card bg-success mb-3 text-white">
+      <img id="film3" class="card-img-top" src="Tamil.jpg" style="height:400px;width:100%" alt="Card image cap">
+      <div class="card-body">
+        <h5 class="card-title">Card title</h5>
+        <ul class="card-text">
+          
+          <li><p>Directed-by: Lorem</p> </li>
+          <li><p>Lead-Role-Male: Lorem</p> </li>
+          <li><p>Lead-Role-Female: Lorem</p> </li>
+          <li><p>Release-Date: Lorem </p></li>
+          <li><p>Awards-and-Achievements: Lorem</p> </li>
+          <li><p>Description: Lorem</p> </li>
+        
+      </ul>
+      </div>
+      <div class="card-footer">
+        <small class="footer-text">Last updated 3 mins ago</small>
+      </div>
+    </div>
+  </div>
+  <div class="card-deck">
+    <div class="card bg-danger mb-3 text-white">
+      <img id="film4" class="card-img-top" src="Tamil.jpg" style="height:400px;width:100%" alt="Card image cap">
+      <div class="card-body">
+        <h5 class="card-title">Card title</h5>
+        <ul class="card-text">
+          
+          <li><p>Directed-by: Lorem</p> </li>
+          <li><p>Lead-Role-Male: Lorem</p> </li>
+          <li><p>Lead-Role-Female: Lorem</p> </li>
+          <li><p>Release-Date: Lorem </p></li>
+          <li><p>Awards-and-Achievements: Lorem</p> </li>
+          <li><p>Description: Lorem</p> </li>
+        
+      </ul>
+      </div>
+      <div class="card-footer">
+        <small class="footer-text">Last updated 3 mins ago</small>
+      </div>
+    </div>
+    <div class="card bg-success mb-3 text-white">
+      <img id="film5" class="card-img-top" src="Tamil.jpg" style="height:400px;width:100%" alt="Card image cap">
+      <div class="card-body">
+        <h5 class="card-title">Card title</h5>
+        <ul class="card-text">
+          
+          <li><p>Directed-by: Lorem</p> </li>
+          <li><p>Lead-Role-Male: Lorem</p> </li>
+          <li><p>Lead-Role-Female: Lorem</p> </li>
+          <li><p>Release-Date: Lorem </p></li>
+          <li><p>Awards-and-Achievements: Lorem</p> </li>
+          <li><p>Description: Lorem</p> </li>
+        
+      </ul>
+      </div>
+      <div class="card-footer">
+        <small class="footer-text">Last updated 3 mins ago</small>
+      </div>
+    </div>
+    <div class="card bg-danger mb-3 text-white">
+      <img id="film6" class="card-img-top" src="Tamil.jpg" style="height:400px;width:100%" alt="Card image cap">
+      <div class="card-body">
+        <h5 class="card-title">Card title</h5>
+        <ul class="card-text">
+          
+          <li><p>Directed-by: Lorem</p> </li>
+          <li><p>Lead-Role-Male: Lorem</p> </li>
+          <li><p>Lead-Role-Female: Lorem</p> </li>
+          <li><p>Release-Date: Lorem </p></li>
+          <li><p>Awards-and-Achievements: Lorem</p> </li>
+          <li><p>Description: Lorem</p> </li>
+        
+      </ul>
+      </div>
+      <div class="card-footer">
+        <small class="footer-text">Last updated 3 mins ago</small>
+      </div>
+    </div>
+  </div>
+  <div class="card-deck">
+    <div class="card bg-success mb-3 text-white">
+      <img id="film7" class="card-img-top" src="Tamil.jpg" style="height:400px;width:100%" alt="Card image cap">
+      <div class="card-body">
+        <h5 class="card-title">Card title</h5>
+        <ul class="card-text">
+          
+          <li><p>Directed-by: Lorem</p> </li>
+          <li><p>Lead-Role-Male: Lorem</p> </li>
+          <li><p>Lead-Role-Female: Lorem</p> </li>
+          <li><p>Release-Date: Lorem </p></li>
+          <li><p>Awards-and-Achievements: Lorem</p> </li>
+          <li><p>Description: Lorem</p> </li>
+        
+      </ul>
+      </div>
+      <div class="card-footer">
+        <small class="footer-text">Last updated 3 mins ago</small>
+      </div>
+    </div>
+    <div class="card bg-danger mb-3 text-white">
+      <img id="film8" class="card-img-top" src="Tamil.jpg" style="height:400px;width:100%" alt="Card image cap">
+      <div class="card-body">
+        <h5 class="card-title">Card title</h5>
+        <ul class="card-text">
+          
+          <li><p>Directed-by: Lorem</p> </li>
+          <li><p>Lead-Role-Male: Lorem</p> </li>
+          <li><p>Lead-Role-Female: Lorem</p> </li>
+          <li><p>Release-Date: Lorem </p></li>
+          <li><p>Awards-and-Achievements: Lorem</p> </li>
+          <li><p>Description: Lorem</p> </li>
+        
+      </ul>
+      </div>
+      <div class="card-footer">
+        <small class="footer-text">Last updated 3 mins ago</small>
+      </div>
+    </div>
+    <div class="card bg-success mb-3 text-white">
+      <img id="film9" class="card-img-top" src="Tamil.jpg" style="height:400px;width:100%" alt="Card image cap">
+      <div class="card-body">
+        <h5 class="card-title">Card title</h5>
+        <ul class="card-text">
+          
+          <li><p>Directed-by: Lorem</p> </li>
+          <li><p>Lead-Role-Male: Lorem</p> </li>
+          <li><p>Lead-Role-Female: Lorem</p> </li>
+          <li><p>Release-Date: Lorem </p></li>
+          <li><p>Awards-and-Achievements: Lorem</p> </li>
+          <li><p>Description: Lorem</p> </li>
+        
+      </ul>
+      </div>
+      <div class="card-footer">
+        <small class="footer-text">Last updated 3 mins ago</small>
+      </div>
+    </div>
+  </div>
+</div>
